@@ -1,0 +1,800 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding: 30px 10% 10px;
+    text-size-adjust: 100%;
+}
+.palmlogo img{
+    width: 197px;
+    height: auto;
+    cursor: pointer;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style-type: none;
+    margin-right: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    color: #4A4A4A;
+    text-size-adjust: 100%;
+    cursor: pointer;
+}
+.nig img{
+    width: 23px;
+    height: auto;
+    cursor: pointer;
+}
+.active{
+    color: #2558ab !important
+}
+.one{
+    width: 100%;
+    height: 100px;
+    display: block;
+}
+.two{
+    display: flex;
+    justify-content: space-between;
+    padding: 12.9062px 103.359px 0px 129.188px;
+}
+.cardsub{
+margin-top: 80px;
+}
+.digword{
+    font-size: 42px;
+    font-weight: 700;
+    color: #202046;
+    padding: 0px 0px 20px;
+}
+.digone{
+    font-weight: 400;
+    color: #202046;
+    text-size-adjust: 100%;
+    font-size: 16px;
+    padding: 0px 0px 20px;
+}
+.cardsdiv{
+    display: flex;
+    margin: 0px 20px 0px 0px;
+}
+.gogglecard img{
+    width: 231px;
+    height: auto;
+    padding: 15px 29px 8px 0px;
+    cursor: pointer;
+}
+.applecard img{
+    width: 231px;
+    height: auto; 
+    padding: 15px 29px 8px 0px;
+    cursor: pointer;
+}
+.card1 img{
+    width: 403px;
+    height: auto;
+    padding: 0px 10px;
+}
+.three{
+    display: flex;
+    margin: 64.5938px 0px 0px;
+    padding: 0px 129.188px;
+}
+.paydiv img{
+height: auto;
+width: 465px;
+}
+.freesub{
+    margin: 64.5938px;
+}
+.relsub{
+    font-weight: 600;
+    font-size: 42px;
+    display: block;
+    color: #202046;
+    padding: 0px 0px 26px;
+    width: 465px;
+}
+.fastdiv{
+    font-size: 20px;
+    font-weight: 400;
+    display: block;
+    color: #202046;
+    padding: 0px 0px 26px;
+    width: 465px;
+}
+.moresub{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+.morediv{
+    font-size: 20px;
+    margin: 0px 6px 0px  0px;
+    color: #6306b2;
+    font-weight: 600;
+}
+.rigdiv{
+    width: 12px;
+    border: none;
+    height: auto;
+}
+.four{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 129.188px;
+}
+.fordiv{
+    color: #202046;
+    padding: 0px 0px 26px;
+    font-weight: 600;
+    font-size: 42px;
+    display: block;
+    width: 465px;
+}
+.chargediv{
+    color: #202046;
+    padding: 0px 0px 26px;
+    font-weight: 400;
+    font-size: 20px;
+    width: 465px;
+}
+.butsub{
+    border-radius: 7px;
+    color: #fff;
+    border: none;
+    background-color: #6306b2;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    height: 55px;
+    padding: 0px 35px;
+}
+.getdiv img{
+     text-align: center;   
+     width: 465px;
+     height: auto;
+}
+.five{
+    background-color: #4a0586!important;
+    text-align: center;
+    padding: 38.75px 129.188px 10px;
+    margin-top:10px;
+}
+.cussub{
+    font-weight: 600;
+    font-size: 42px;
+    color: #fff;
+    padding: 0px 0px 26px;
+    display: block;
+    text-align: center;
+}
+.andsub{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 10px;
+    padding: 10px 0px;
+    background: linear-gradient(90deg,#4a0586 0,rgba(105,0,197,.404) 50%,#4a0586);
+    text-align: center;
+}
+.andrioddiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.andrioddiv p{
+    margin: 0px 12px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.andrioddiv span{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+.iosdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.iosdiv p{
+    margin: 0px 12px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.iosdiv span{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+.havetosay{
+    display: flex;
+    text-align: center;
+}
+.useronediv{
+    background-color: #fff;
+    margin: 0px 10px;
+    padding: 36px;
+    width: 30%;
+    border-radius: 25px;
+    text-align: center;
+}
+.userone{
+    display: flex;
+    margin: 0px 0px 14px;
+}
+.musa p{
+    color: #202046;
+    text-align: left;
+    padding: 0px 2px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.hitches{
+    font-size: 22px;
+    text-align: left;
+    color: #202046;
+    font-weight: 400;
+}
+.usertwodiv{
+    background-color: #fff;
+    margin: 0px 10px;
+    padding: 36px;
+    width: 30%;
+    border-radius: 25px;
+    text-align: center;
+}
+.usertwo{
+    display: flex;
+    margin: 0px 0px 14px;
+}
+.olori p{
+    color: #202046;
+    text-align: left;
+    padding: 0px 2px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.userthreediv{
+    background-color: #fff;
+    margin: 0px 10px;
+    padding: 36px;
+    width: 30%;
+    border-radius: 25px;
+    text-align: center;
+}
+.userthree{
+    display: flex;
+    margin: 0px 0px 14px;
+}
+.eddy p{
+    color: #202046;
+    text-align: left;
+    padding: 0px 2px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.havetosayoperate{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 23px 10px 0px;
+    text-align: center;
+}
+.seeicon {
+    display: flex;
+}
+.six{
+    padding: 129.188px;
+
+}
+.six p{
+    margin: 0px 0px 50px;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+    height: 53px;
+    margin-bottom: 50px;
+    color: #202046;
+    display: block;
+}
+.nibdiv ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 80px 0px 0px;
+}
+.seven{
+    display: flex;
+    padding: 3% 10%;
+    justify-content: space-between;
+
+}
+.appsub{
+    text-align: left;
+    font-weight: 600;
+    font-size: 42px;
+    color: #595757;
+    margin-top: 50px;
+}
+.mindiv{
+    text-align: left;
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: 20px;
+    color: #595757;
+}
+.carddav{
+    padding: 15px 29px 8px 0px;
+    margin: 0px 20px 0px 0px;
+    cursor: pointer;
+}
+.ndicsub{
+    display: flex;
+    align-items: center;
+    padding: 11px 0px;
+    margin: 26px 0px 0px;
+}
+.cbndiv{
+    display: flex;
+}
+.cbndiv p{
+    padding: 0px 7px 0px 0px;
+    color: #595757;
+    font-weight: 400;
+}
+.ndicdiv{
+    display: flex;
+}
+.ndicdiv p{
+    padding: 0px 18px 0px 36px;
+    color: #595757;
+    font-weight: 400;
+}
+.foodiv img{
+    width: 595px;
+}
+.footersub{
+    padding: 3% 10%;
+    background: #e6e6e6;  
+}
+.footer{
+   display: flex;
+   justify-content: space-between; 
+}
+.contactdiv{
+    text-align: left;
+    padding: 60px 0px;
+}
+.usdiv{
+    font-weight: 500;
+    font-size: 22px;
+    text-align: left;
+    color: #000;
+}
+.maildiv{
+    display: grid;
+    margin: 12px 0px 0px;
+    text-align: left;
+}
+.maildiv span{
+color: #000;
+font-weight: 400;
+font-size: 16px;
+}
+.maildiv p{
+    color: #595757;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 12px 0px 0px;
+}
+.phonesub{
+    display: flex;
+    margin: 12px 0px 0px;
+    text-align: left;
+    
+}
+.phonesub p{
+    color: #000;
+    font-weight: 400;
+    font-size: 16px; 
+}
+.phonesub span{
+    color: #595757;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 16px;
+}
+.footdav{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    max-width: 240px;
+    text-align: left;
+}
+.persdiv{
+    padding: 60px 0px 60px 24px;
+    text-align: left;
+}
+.persdiv span{
+    font-weight: 500;
+    font-size: 22px;
+    text-align: left;
+    color: #000
+}
+.persdiv p{
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    text-align: left;
+    color: #595757;
+}
+.gentsdiv{
+    padding: 60px 0px 60px  24px;
+    text-align: left;
+}
+.gentsdiv span{
+    font-weight: 500;
+    font-size: 22px;
+    color: #000;
+}
+.gentsdiv p{
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #595757;
+    cursor: pointer
+}
+.comdiv{
+    padding: 60px 0px 60px  24px;
+    text-align: left;
+}
+.comdiv span{
+    font-weight: 500;
+    font-size: 22px;
+    color: #000;
+}
+.comdiv p{
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #595757;
+    cursor: pointer
+}
+.legaldiv{
+    padding: 60px 0px 60px  24px;
+    text-align: left;
+}
+.legaldiv span{
+    font-weight: 500;
+    font-size: 22px;
+    color: #000;
+}
+.legaldiv p{
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #595757;
+    cursor: pointer
+}
+.mobileIcon,.mobile-icon{
+    display: none;
+}
+@media (max-width:990px){
+.navbar ul{
+    display: block;
+}
+.header{
+    padding: 0;
+    margin: 0;
+
+}
+.mobile-icon{
+    display: block;
+    cursor: pointer;
+}
+.navbar{
+    display: none;
+}
+.mobileIcon{
+    display: none;
+}
+.mobileIcon:checked ~.navbar{
+    display: grid;
+    position: absolute;
+    top: 90;
+    background-color: #FF8057;
+    width: 80%;
+    margin: 0;
+    padding: 0;
+}
+.two{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    align-items: center;
+}
+.digword span{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 20px;
+    display: block;
+    font-size: 28px;
+    font-weight: 400;
+}
+.digone{
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.cardsdiv{
+    margin: 0;
+    border-radius: 7px;
+    cursor: pointer;
+    text-align: center;
+   padding: 0;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.gogglecard img{
+width: 117px;
+margin: 0px 1px 0px 0px;
+padding: 0px;
+}
+.applecard img{
+    width: 117px;
+margin: 0px 1px 0px 0px;
+padding: 0px
+}
+.card1 img{
+    padding: 0;
+    width: 70%;
+    margin: 0;
+    display: block;
+    align-items: center;
+}
+.card1, .getdiv, .foodiv,.card1,.paydiv{
+    padding: 0;
+    margin: 0;
+    border: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.three{
+    margin: 5% 0 0;
+    display: grid;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
+.paydiv img{
+    padding: 0;
+    width: 80%;
+    margin: 0;
+    display: block;
+    align-items: center;  
+}
+.freesub{
+    display: block;
+    text-align: center;
+    margin: 30px;
+}
+.relsub,.fordiv{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+    margin: 0;
+    display: block;
+    padding: 0 0 26px;
+    width: 100%;
+
+}
+.relsub,.fastdiv{
+    width: 100%;
+}
+.fastdiv, .chargediv{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 26px;
+    display: block;
+    width: 100%;
+
+}
+.morediv{
+    padding: 0;
+    margin: 0 6px 0 0;
+    font-size: 20px;
+    display: block;
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+
+}
+.four{
+    display: grid;
+    align-items: center;
+    padding: 0px;
+}
+.getdiv img{
+    padding: 0;
+    width: 60%;
+    margin: 0;
+    display: block;
+    align-items: center;
+}
+.getsub{
+    padding: 0;
+    margin: 0 0 20px;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.butsub{
+    height: 48px;
+    border-radius: 12px;
+    padding: 0 35px;
+    background-color: #6306b2;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0;
+}
+.five{
+    display: block;
+    text-align: center;
+    padding: 16px;
+}
+.cussub{
+    display: block;
+    text-align: center;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+    margin: 0;
+    padding: 0 0 26px;
+}
+.andsub{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 10px;
+    padding: 10px 0;
+}
+.andrioddiv, .iosdiv{
+    margin: 0 12px;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0;
+}
+.havetosay{
+display: grid;
+text-align: center;
+;
+}
+.useronediv,.usertwodiv,.userthreediv{
+    margin: 0;
+    width: 60%;
+   padding: 20px;
+     border-radius: 25px;
+     display: grid;
+     text-align: center;
+     justify-content: center;
+}
+.six{
+    padding: 0;
+    margin: 0;
+}
+.six p{
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+    height: 53px;
+    display: block;
+    margin-bottom: 50px;
+}
+.nibdiv{
+    padding: 30px 16px 60px;
+}
+.nibdiv ul{
+    display: grid;
+    justify-content: center;
+    margin:30px 0px 0px;
+    padding: 0;
+    align-items: center;
+
+}
+.foodiv img{
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    display: block;
+    align-items: center; 
+}
+.seven{
+    display: block;
+    padding: 3% 10%;
+    margin-bottom: 0;
+}
+.appsub{
+    font-size: 26px;
+    text-align: center;
+    padding: 16px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    margin-top: 50px;
+    display: block;
+}
+.mindiv{
+    font-size: 18px;
+    padding: 0 16px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    display: block;
+}
+.ndicsub{
+display: flex;
+align-items: center;
+padding: 11px 0;
+margin: 26px 0 0;
+}
+.ndicsub p{
+    padding: 0 7px 0 0;
+    margin: 0;
+}
+.footer{
+    display: grid;
+    align-items: center;
+}
+.contactdiv{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+.pergent, .comlegal{
+    display: flex;
+    text-align: center;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+}
